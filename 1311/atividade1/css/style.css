@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 20px 7px;
+}
+
+th {
+    font-size: 15px;
+}
+
+td {
+    font-size: 15px;
+}
+
+td:first-child {
+    text-align: left;
+    width: 20%;
+}
+
+th:first-child {
+    background-color: #f2f2f2;
+}
+
+.empresa {
+    background-color: #6a7078;
+    color: white;
+    width: 20%;
+}
+
+.avancar {
+    background-color: #e94c4c;
+    color: white;
+    width: 20%;
+}
+
+.starter {
+    background-color: #52b04f;
+    color: white;
+    width: 20%;
+}
+
+tr:nth-child(odd) {
+    background-color: #f3f5f8;
+}
+
+tr:first-child {
+    background-color: white;
+}
+
+tr:last-child {
+    background-color: white;
+}
+
+td:nth-child(3) {
+    background-color: #f3f5f8;
+}
+
+button {
+    background-color: white;
+    color: #1f0755;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.botao-avancar {
+    background-color: #e94c4c;
+    color: white;
+    border: 1px solid #e94c4c;
+}
